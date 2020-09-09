@@ -7,6 +7,8 @@ command line client-server chat application with functionalities like check for 
 # compile : 
 	gcc server.c -o ./server
 	gcc client.c -o ./client
+	or (using make file)
+	make (just type 'make' in terminal where project files(client and server) are present)
 # execution:	
 	./server PORT_NUMBER (starting server)
 	./clinet PORT_NUMBER (connecting client to server)
