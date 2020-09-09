@@ -3,18 +3,18 @@ command line client-server chat application with functionalities like check for 
 
 
 # requirement
-			GCC compiler
+	GCC compiler
 # compile : 
-			gcc server.c -o ./server
-			gcc client.c -o ./client
+	gcc server.c -o ./server
+	gcc client.c -o ./client
 # execution:	
-			./server PORT_NUMBER (starting server)
-			./clinet PORT_NUMBER (connecting client to server)
-			**BOTH PORT_NUMBERS SHOULD BE SAME (on which server is listening client requestss)
+	./server PORT_NUMBER (starting server)
+	./clinet PORT_NUMBER (connecting client to server)
+	**BOTH PORT_NUMBERS SHOULD BE SAME (on which server is listening client requestss)
 # This chat application has 12 functionalities:
 	on receiving every request server validate that request.
 	/active
-			this function is returns all the active clients(users).
+		- this function is returns all the active clients(users).
 	/send <USER_ID> <MSG>
 		- on receiving this request from client the server stores all the details in message stucture (Source , Destination,message)
 		- next it will check the Destination is active or not 
