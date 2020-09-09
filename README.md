@@ -11,7 +11,7 @@ command line client-server chat application with functionalities like check for 
 	./server PORT_NUMBER (starting server)
 	./clinet PORT_NUMBER (connecting client to server)
 	**BOTH PORT_NUMBERS SHOULD BE SAME (on which server is listening client requestss)
-# This chat application has 12 functionalities:
+# This chat application has 11 functionalities:
 	on receiving every request server validate that request.
 	/active
 		- this function is returns all the active clients(users).
