@@ -1,8 +1,7 @@
 /********************************************************
-		ASSIGNMENT - 3
-		19CS60R63
-		JAN-14-2020
-		flags: port no should send throught commandline
+	Author: Damera Ajay
+	Date  :JAN-14-2020
+	Flags : port no should send throught commandline
 *********************************************************/
 
 #include<stdio.h>
